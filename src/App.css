@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  border: 1px solid;
+  align-items: center;
+  width: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-style {
+  --bs-nav-link-padding-x: 10px;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  gap: 0px;
+  font-size: 12px;
+}
+
+.nav-pills-style {
+  --bs-nav-pills-link-active-bg: #0d6efd;
+  margin-top: 3px;
+  color: aliceblue;
+}
+
+.headerFont {
+  font-size: 22px;
+  color: aliceblue;
+  margin-bottom: -6px;
+}
+
+.paragraphFont {
+  margin-bottom: 0px;
+  font-family: ui-monospace;
+  color: darkgray;
+  font-size: 13px;
+}
+
+.headerDiv {
+  margin-right: 80px;
+}
+
+.timeStyle {
+  color: aliceblue;
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.dateStyle {
+  color: darkgray;
+  font-size: 10px;
+}
+
+.timeDiv {
+  display: flex;
+  align-items: center;
+}
+
+.leftPaneDiv {
+  display: flex;
+}
+
+.chatDiv {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.whiteColor {
+  color: #FFFFFF;
+}
+
+.penIcon {
+  margin-left: 10px
+}
+
+.verticalDots {
+  color: '#FFFFFF';
+  padding: 2px 1px 1px 1px;
+  background: #2B3139;
+  margin-left: 80px
+}
+
+.chatHeader {
+  font-size: 20px;
+}
+
+.leftChatDiv {
+  background-color: #1E2329;
+  width: 195px;
+  height: 599px;
+  overflow-y: scroll;
+  right: -17px;
+}
+
+.leftChatDiv::-webkit-scrollbar {
+  width: 1px;
+}
+
+.leftChatDiv::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px  #1E2329;
+  border-radius: 10px;
+}
+
+.leftChatDiv::-webkit-scrollbar-thumb {
+  background:  #1E2329;
+  border-radius: 10px;
+}
+
+.leftChatDiv::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+.userImage {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  border: none;
+}
